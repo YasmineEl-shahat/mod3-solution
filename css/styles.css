@@ -1,0 +1,70 @@
+nav{
+    min-width: 100%;
+}
+
+header h1{
+    font-family: fantasy;
+}
+button.navbar-toggle, .icon-bar{
+    border: 1px solid #0a0809;
+}
+button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    text-align: center;
+    color: #161313;
+}
+
+#main-content{
+    height: 1000px;
+    background-color: lightgray;
+    max-width: 95%;
+    margin-left: 5rem;
+}
+
+main h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: initial;
+}
+@media (min-width: 1500px) and (max-width: 2120px){
+    #main-content{
+        max-width: 94%;
+        margin-left: 4.5rem;
+    }
+}
+@media (min-width: 1220px) and (max-width: 1499px){
+    #main-content{
+        max-width: 92%;
+        margin-left: 5rem;
+    }
+}
+@media (max-width: 1219px){
+    #main-content{
+        max-width: 90%;
+        margin-left: 5rem;
+    }
+}
+    
+@media(min-width: 600px) and (max-width: 900px){
+   #main-content{
+       max-width: 85%;
+   }
+}
+
+@media(min-width: 500px) and (max-width: 599px) {
+    #main-content{
+        max-width: 82%;
+    }
+}
+@media(max-width: 499px){
+    #main-content{
+        max-width: 75%;
+    }
+}
